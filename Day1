@@ -1,0 +1,21 @@
+//DartCourse From Youtube
+
+void main() {
+
+  
+  print("Something");
+  String greeting = greet();
+  int myage = age();
+  print(greeting);
+  print(myage);
+  }
+
+String greet(){
+  
+  return "hello";
+}
+
+int age(){
+  return 19;
+}
+
