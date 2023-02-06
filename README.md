@@ -1,6 +1,8 @@
 # Flutter_Journey
 
-table = '''
+table = 
+
+'''
 | Property | Description |
 |----|----|
 | Data type | Grid |
@@ -10,4 +12,6 @@ table = '''
 | Temporal resolution | Hourly |
 | File format | GRIB |
 | Update frequency | Daily |
+
+
 '''
