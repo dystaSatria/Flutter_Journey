@@ -19,3 +19,7 @@ int age(){
   return 19;
 }
 
+//For the start our project lest open CMD(Command Prompt)
+// 1. open for the directory where u want to make the project. Ex: cd ..(for quit any directory or folder) . cd Desktop (to go in the Desktop Folder)
+
+// 2. create flutter. Ex : flutter create flutterFolderName
