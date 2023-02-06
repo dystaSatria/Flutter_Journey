@@ -1,8 +1,6 @@
 # Flutter_Journey
 
-table = 
 
-'''
 | Property | Description |
 |----|----|
 | Data type | Grid |
@@ -14,4 +12,3 @@ table =
 | Update frequency | Daily |
 
 
-'''
