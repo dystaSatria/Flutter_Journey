@@ -5,7 +5,7 @@
 ```dart
 import 'package:flutter/material.dart';
 
-String getFullName(String firstName, String lastname) => '$firstName $lastname';
+String getFullName(String firstName, String lastname) => '$firstName $lastname'; //this
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    print(getFullName('Reza', 'Satria'));
+    print(getFullName('Reza', 'Satria'));  //this
     return MaterialApp(
         debugShowCheckedModeBanner: false,
        home: Scaffold(
