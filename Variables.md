@@ -27,6 +27,7 @@ Error: Compilation failed.
 - Function-scoped variables and globally-scoped variables.
 - Value can be redeclared.
 
+#### Example
 ```dart
 void main(){
  
@@ -35,6 +36,8 @@ void main(){
   print(lesson);
 }
 ```
+
+#### Output
 ```
 Music & Art
 
