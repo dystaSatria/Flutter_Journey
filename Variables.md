@@ -1,4 +1,4 @@
-# CONST | VAR | LET
+# CONST AND VAR 
 
 
 ## CONST
