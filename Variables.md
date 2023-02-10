@@ -1,4 +1,4 @@
-# CONST AND VAR 
+# CONST & VAR 
 
 
 ## CONST
@@ -22,5 +22,25 @@ Error: Can't assign to the const variable 'animal'.
 Error: Compilation failed.
 
 ```
+
+## Var
+- Function-scoped variables and globally-scoped variables.
+- Value can be redeclared.
+
+```dart
+void main(){
+ 
+  var lesson = "Science";
+   lesson = "Music & Art";
+  print(lesson);
+}
+```
+```
+Music & Art
+
+```
+
+
+
 
 
