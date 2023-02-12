@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## 2 Flutter Package Project Name
+## 2. Flutter Package Project Name
 
 - The name should be all lowercase, with underscores to separate words.
   Example:
