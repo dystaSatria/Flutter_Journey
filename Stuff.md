@@ -31,3 +31,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+# 2
+
+- The name should be all lowercase, with underscores to separate words, just_like_this.
