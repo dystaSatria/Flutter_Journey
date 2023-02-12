@@ -35,9 +35,8 @@ class MyApp extends StatelessWidget {
 ## 2. Flutter Package Project Name
 
 - The name should be all lowercase, with underscores to separate words.
-  Example:.
-  ```just_like_this.```
-  or ```test_program```
+  Example:
+```just_like_this.``` or ```test_program```
 - Space and special characters are not allowed on the app name.
  Example : 
  
