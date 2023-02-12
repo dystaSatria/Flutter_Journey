@@ -38,3 +38,4 @@ class MyApp extends StatelessWidget {
   Example:
   ```just_like_this.```
   or ```test_program```
+- Space and special characters are not allowed on the app name. 
