@@ -31,6 +31,8 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+<br>
+<br>
 
 ## 2. Flutter Package Project Name
 
@@ -44,6 +46,8 @@ class MyApp extends StatelessWidget {
  ```
  - It doesn’t start with digits and isn’t a reserved word.
 
+<br>
+<br>
 
 ## 3. The First Page while run
 
