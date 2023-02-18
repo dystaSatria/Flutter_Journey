@@ -13,5 +13,9 @@
 <br>
 
 > **Stateless widget does not have state entity**
-> **Usually, we use these widgets for static portions of our applications like** *Icon.*.
+<br>
+
+> **Usually, we use these widgets for static portions of our applications like** *Icon*.
+<br>
+
 > **Shortcut for create this : ``stless``**
