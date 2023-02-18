@@ -31,7 +31,7 @@
 > **You can use the widgets under this category. **
 <br>
 
-> **Usually, we use these widgets for ** *Icon,Checkbox, TextField, Slider, etc*.
+> **Usually, we use these widgets for ** *Icon,Checkbox, TextField, Slider, etc.*
 <br>
 
 > **Shortcut for create this : ``stless``**
