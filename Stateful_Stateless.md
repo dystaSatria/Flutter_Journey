@@ -7,7 +7,7 @@
 
 ### * Stateles
 
-* **Stateless widget relatively simple categorization**
+> **Stateless widget relatively simple categorization**
 <br>
 
 > **Stateless widget does not have state entity**
