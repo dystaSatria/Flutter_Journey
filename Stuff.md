@@ -73,5 +73,18 @@ return MaterialApp(
 
 ## 3. When we use const or not
 
-If there not parameter in the section like :
+Can not define a const contructor for a class with non final field
+Example :
+```dart
+ final Color? color;
+  final String text;
+  double size;
+  TextOverflow overflow;
 
+  const BigText({Key? key, this.color, 
+  required this.text, 
+  this.size = 20,
+  this.overflow = TextOverflow.ellipsis
+  }) : super(key: key);
+```
+Because there is a non final field like ```double size``` so the you must remove the ```const```.
