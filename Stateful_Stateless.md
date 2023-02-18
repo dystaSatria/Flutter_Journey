@@ -12,7 +12,7 @@
 > **Stateless widget relatively simple categorization**
 <br>
 
-> **Stateless widget does not have state entity**
+> **Stateless widget does not have state entity**.
 <br>
 
 > **Usually, we use these widgets for static portions of our applications like** *Icon*.
@@ -31,7 +31,7 @@
 > **You can use the widgets under this category.**
 <br>
 
-> **Usually, we use these widgets for ** *Icon,Checkbox, TextField, Slider, etc.*
+> **Usually, we use these widgets for** *Icon,Checkbox, TextField, Slider, etc.*
 <br>
 
 > **Shortcut for create this : ``stful``**
