@@ -28,10 +28,10 @@
 > **Stateful is dynamic**
 <br>
 
-> **You can use the widgets under this category. **
+> **You can use the widgets under this category.**
 <br>
 
 > **Usually, we use these widgets for ** *Icon,Checkbox, TextField, Slider, etc.*
 <br>
 
-> **Shortcut for create this : ``stless``**
+> **Shortcut for create this : ``stful``**
