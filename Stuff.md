@@ -87,4 +87,4 @@ Example :
   this.overflow = TextOverflow.ellipsis
   }) : super(key: key);
 ```
-Because there is a non final field like ```double size``` so the you must remove the ```const```.
+Because there is a non final field like ```double size```, so the you must remove the ```const```.
