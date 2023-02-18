@@ -4,6 +4,8 @@
 <br>
 
 > **All the widgets in Flutter can be categorized into two types — Stateless and Stateful.** 
+<br>
+<br>
 
 * ### Stateles
 
