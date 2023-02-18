@@ -88,3 +88,24 @@ Example :
   }) : super(key: key);
 ```
 Because there is a non final field like ```double size```, so the you must remove the ```const```.
+
+
+# 4. 
+
+We cannot call as varieble, property or same as thing to the section above :
+
+```dart
+class BigText extends StatelessWidget {
+  Color? color;
+  final String text;
+  double size;
+  TextOverflow overflow;
+
+  BigText({Key? key, this.color = , 
+  required this.text, 
+  this.size = 20,
+  this.overflow = TextOverflow.ellipsis
+  }) : super(key: key);
+
+```
+You must call same thing like const hexadecimal like ```const Color(0xFFfcab88);```
