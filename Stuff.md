@@ -69,7 +69,7 @@ return MaterialApp(
       ),
       home: MainFoodPage(),//this the start class while you run it
     );,
-    ```
+ ```
 
 ## 3. When we use const or not
 
