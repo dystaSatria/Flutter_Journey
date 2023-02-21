@@ -139,3 +139,10 @@ class _FoodPageBodyState extends State<FoodPageBody> {
 ```
 * itemCount is the total item (if 5 mean there are 5 items but in position is mean 0-4)
 
+## 8. Margin in Flutter
+
+```dart
+margin: EdgeInsets.only(left: 5, right:5 ),
+```
+
+## 9. 
