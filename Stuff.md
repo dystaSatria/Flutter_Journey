@@ -71,7 +71,7 @@ return MaterialApp(
     );,
  ```
 
-## 3. When we use const or not
+## 4. When we use const or not
 
 Can not define a const contructor for a class with non final field
 Example :
