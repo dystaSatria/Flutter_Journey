@@ -115,9 +115,12 @@ You must call same thing like const hexadecimal like ```const Color(0xFFfcab88);
 
 ```dart
 Row(
-                  children: [
-                    SmallText(text: "Cirebon", color: Colors.black54,),
-                    Icon(Icons.arrow_drop_down_rounded )
-                  ],
-                )
+     children: [
+        SmallText(text: "Cirebon", color: Colors.black54,),
+        Icon(Icons.arrow_drop_down_rounded )
+          ],
+)
 ```
+
+
+
