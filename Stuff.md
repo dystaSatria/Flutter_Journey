@@ -122,5 +122,20 @@ Row(
 )
 ```
 
-
+## 7. 
+```dart
+class _FoodPageBodyState extends State<FoodPageBody> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: PageView.builder(
+        itemCount: 5, //5 items
+        itemBuilder : (context, position){ //position 0-4
+          return Container();
+        } ),
+    );
+  }
+}
+```
+* itemCount is the total item (if 5 mean there are 5 items but in position is mean 0-4)
 
