@@ -145,4 +145,11 @@ class _FoodPageBodyState extends State<FoodPageBody> {
 margin: EdgeInsets.only(left: 5, right:5 ),
 ```
 
-## 9. 
+## 9. Rounded our picture
+
+```dart
+decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(30) ),
+    );
+```
+* Add this in your container 
