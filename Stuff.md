@@ -177,3 +177,29 @@ Widget _buildPageItem(int index){ // this section is like for food slides
 ```    
 * Focus to the ```fit: BoxFit.cover```
 
+## 11.
+
+```dart
+ Widget _buildPageItem(int index){ // this section is like for food slides
+    return Stack(
+      children: [
+        Container(
+      height:  220,
+      margin: EdgeInsets.only(left: 5, right:5 ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(30) ,
+        color: index.isEven?Color(0xFF69c5df) : Color(0xFF9294cc),
+        image: DecorationImage(
+
+          fit: BoxFit.cover, // fit the photo in our cover photo
+          image: AssetImage(
+            "assets/image/food1.jpg"
+          )
+        )
+      )
+    )
+      ],
+    );
+```
+
+* Stack Widget is widget in flutter SDK which allows us to make a layer of widgets by putting them on top of each other. 
