@@ -291,3 +291,26 @@ can be same function with :
 ```dart
 List.generate(5, (index) {return Icon(Icons.star, color: AppColors.mainColor,size: 15,);}
 ```
+
+
+## 18.
+```dart
+class IconAndTextWidget extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  final Color color;
+  final Color iconColor;
+  const IconAndTextWidget({Key? key}) : super(key: key);
+
+```
+* For fix the problem we can "hover" to the IconAndTextWidget word, enter with right click and select the "Add final field formal paramteres".
+* It will automically 
+```dart
+class IconAndTextWidget extends StatelessWidget {
+  final IconData icon;
+  final String text;
+  final Color color;
+  final Color iconColor;
+  const IconAndTextWidget(this.icon, this.text, this.color, this.iconColor, {Key? key}) : super(key: key);
+
+```
