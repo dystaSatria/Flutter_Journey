@@ -242,3 +242,10 @@ Widget _buildPageItem(int index){ // this section is like for food slides
 ```
 * If we make comment (//) the ```//height:200``` section's height will join the ```height :320```.
 * The under section work as a child from the above section.    
+
+## 13.
+
+```dart
+color: index.isEven?Color(0xFF69c5df) : Color(0xFF9294cc),
+```
+* the output is will automatic change beetween the 2 color alternately(secara bergantian)
