@@ -276,6 +276,18 @@ PageController pageController = PageController(viewportFraction: 0.85);//view
 List.generate(5, (index) => Icon(Icons.star, color: AppColors.mainColor,size: 15,)),
 ```
 
-## crossAxisAlignment vs mainAxisAlignment
+## 16. crossAxisAlignment vs mainAxisAlignment
 
 * crossAxisAlignment is parallel to x when mainAxisAlignmnent is parallel to y
+
+## 17. 
+the section above :
+```dart
+ children:  List.generate(5, (index) => Icon(Icons.star, color: AppColors.mainColor,size: 15,))
+```
+
+can be same function with :
+
+```dart
+List.generate(5, (index) {return Icon(Icons.star, color: AppColors.mainColor,size: 15,);}
+```
