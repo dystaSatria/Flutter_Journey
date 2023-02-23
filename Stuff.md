@@ -275,3 +275,7 @@ PageController pageController = PageController(viewportFraction: 0.85);//view
 ```dart
 List.generate(5, (index) => Icon(Icons.star, color: AppColors.mainColor,size: 15,)),
 ```
+
+## crossAxisAlignment vs mainAxisAlignment
+
+* crossAxisAlignment is parallel to x when mainAxisAlignmnent is parallel to y
