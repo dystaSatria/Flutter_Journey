@@ -240,4 +240,5 @@ Widget _buildPageItem(int index){ // this section is like for food slides
       ],
     );
 ```
-* If we make comment (//) the ```//height:200``` section's height will join the ```height :320```    
+* If we make comment (//) the ```//height:200``` section's height will join the ```height :320```.
+* The under section work as a child from the above section.    
