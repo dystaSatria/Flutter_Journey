@@ -175,5 +175,5 @@ Widget _buildPageItem(int index){ // this section is like for food slides
       )
     );
 ```    
-    - Focus to the ```dart fit: BoxFit.cover```
+    - Focus to the ```fit: BoxFit.cover```
 
