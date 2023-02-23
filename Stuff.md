@@ -269,3 +269,9 @@ PageController pageController = PageController(viewportFraction: 0.85);//view
   }
 ```
 * viewport between slides
+
+## 15. Child Dynamic
+
+```dart
+List.generate(5, (index) => Icon(Icons.star, color: AppColors.mainColor,size: 15,)),
+```
