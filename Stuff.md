@@ -249,3 +249,23 @@ Widget _buildPageItem(int index){ // this section is like for food slides
 color: index.isEven?Color(0xFF69c5df) : Color(0xFF9294cc),
 ```
 * the output is will automatic change beetween the 2 color alternately(secara bergantian)
+
+## 14.
+
+```dart
+PageController pageController = PageController(viewportFraction: 0.85);//view
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.redAccent,
+      height: 320,
+      child: PageView.builder(
+        controller: pageController,
+        itemCount: 5, //5 items
+        itemBuilder : (context, position){ //position 0-4
+          return _buildPageItem(position);
+        } ),
+    );
+  }
+```
+* viewport between slides
