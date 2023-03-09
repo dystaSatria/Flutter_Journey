@@ -1,6 +1,6 @@
 void main() {
  
-  /*int a = 5; //jjlsjjs
+  /int a = 5; //jjlsjjs
   double b = 6.2;
   String s = "dssds";
   bool maol= true;
