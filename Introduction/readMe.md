@@ -12,3 +12,14 @@ void main() {
 ```
 
 ## Variables
+
+```dart
+var nama = 'Voyager I';
+var tahun = 1977;
+var diameterAntena = 3.7;
+var objekFlyby = ['Jupiter', 'Saturnus', 'Uranus', 'Neptunus'];
+var gambar = {
+  'tags': ['saturnus'],
+  'url': '//path/to/saturn.jpg'
+};
+```
