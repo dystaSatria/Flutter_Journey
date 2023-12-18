@@ -10,11 +10,10 @@ void main() {
 }
 ```
 
-
-Variables
+## Variables
 In Dart, you can declare most variables without explicitly specifying their type using var:
 
-dart
+```dart
 Copy code
 var name = 'Voyager I';
 var year = 1977;
@@ -24,7 +23,7 @@ var image = {
   'tags': ['saturn'],
   'url': '//path/to/saturn.jpg'
 };
-Read more about variables in Dart
+```
 
 Control Flow Statements
 Dart supports the usual control flow statements like if, for, and while:
