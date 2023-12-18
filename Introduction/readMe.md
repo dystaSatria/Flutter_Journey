@@ -24,10 +24,10 @@ var image = {
 };
 ```
 
-Control Flow Statements
+## Control Flow Statements
 Dart supports the usual control flow statements like if, for, and while:
 
-dart
+```dart
 Copy code
 if (year >= 2001) {
   print('21st century');
@@ -46,7 +46,7 @@ for (int month = 1; month <= 12; month++) {
 while (year < 2016) {
   year += 1;
 }
-Read more about control flow statements in Dart
+```
 
 Functions
 It's recommended to specify the types of function arguments and return values:
