@@ -48,20 +48,20 @@ while (year < 2016) {
 }
 ```
 
-Functions
+# Functions
 It's recommended to specify the types of function arguments and return values:
 
-dart
-Copy code
+```dart
+
 int fibonacci(int n) {
   if (n == 0 || n == 1) return n;
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 var result = fibonacci(20);
-Read more about functions in Dart
+```
 
-Comments
+## Comments
 Comments in Dart usually start with // for single-line comments and /* */ for multi-line comments:
 
 dart
