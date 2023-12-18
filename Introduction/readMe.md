@@ -8,7 +8,8 @@ Every app requires the top-level `main()` function, where execution starts. To d
 void main() {
   print('Hello, World!');
 }
-Read more about the main() function in Dart
+```
+
 
 Variables
 In Dart, you can declare most variables without explicitly specifying their type using var:
