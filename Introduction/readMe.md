@@ -14,7 +14,6 @@ void main() {
 In Dart, you can declare most variables without explicitly specifying their type using var:
 
 ```dart
-Copy code
 var name = 'Voyager I';
 var year = 1977;
 var antennaDiameter = 3.7;
